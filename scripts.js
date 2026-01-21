@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     if (typeof Typed !== "undefined" && document.querySelector('.typed')) {
         const typed = new Typed('.typed', {
-            strings: ['Data Analyst', 'Data Engineer', 'Data Scientisit','Graduate from University of Hertfordshire'],
+            strings: ['Data Analyst', 'Data Engineer', 'Data Scientisit'],
             typeSpeed: 100,
             backSpeed: 100,
             backDelay: 1000,
@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
         console.error("Typed.js library is not loaded.");
     }
 });
+
 
 
 
